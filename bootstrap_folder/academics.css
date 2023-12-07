@@ -1,0 +1,10 @@
+
+nav ul li a:hover,
+nav ul li a.active{
+    color: blue;
+    background: blue;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;}

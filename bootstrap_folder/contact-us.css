@@ -1,0 +1,23 @@
+
+nav ul li a:hover,
+nav ul li a.active{
+    color: blue;
+    background: blue;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+#fancytitle {
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    font-size: 48px;
+    color: #003164;
+    text-align: left;
+    font-style: inherit;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
