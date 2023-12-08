@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="shortcut icon" href="../imgs/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../contact-us.css">
 </head>
+
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-           <img src="imgs/logo.png" alt="">
-            <span class="fs-4"></span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="../bootstrap_folder/index_bootstrap.html" class="fa fa-home">Home</a></li>
-            <li class="nav-item"><a href="about-us.html" class="fa fa-user">About Us</a></li>
-            <li class="nav-item"><a href="academics.html" class="fa fa-graduation-cap">Academics</a></li>
-            <li class="nav-item"><a href="contact-us.html" class="fa fa-address-book">Contact Us</a></li>
-          </ul>
-        </header>
+  <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog"
+    id="modalSignin">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content rounded-4 shadow">
+        <div class="modal-header p-5 pb-4 border-bottom-0">
+          <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body p-5 pt-0">
+          <form class="">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+            <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+
+            <!-- Link to go back to landing page -->
+            <a href="../index_bootstrap.html">Back to Landingpage</a>
+          </form>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <main>
-      
-
-    </main>
-
-    
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
