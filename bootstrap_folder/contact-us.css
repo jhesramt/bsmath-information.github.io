@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 nav ul li a:hover,
 nav ul li a.active{
     color: blue;
@@ -31,3 +31,16 @@ p{
     top: 0;
     position: absolute;
 }
+button.ok-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* Add hover effect */
+  button.ok-button:hover {
+    background-color: #0056b3;
+  }

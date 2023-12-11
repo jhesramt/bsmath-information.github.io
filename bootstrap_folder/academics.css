@@ -1,10 +1,54 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 nav ul li a:hover,
 nav ul li a.active{
     color: blue;
     background: blue;
 
 }
-p{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+main {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+ol, ul {
+    padding-left: 20px;
+}
+blockquote {
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 3px solid #007bff;
+}
+.content-section {
+    margin-top: 40px;
+}
+.publication {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.publication h2 {
+    color: #ff6b6b;
+}
+.publication p, .publication a {
+    color: #333;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
