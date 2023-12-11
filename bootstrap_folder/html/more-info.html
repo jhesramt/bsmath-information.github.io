@@ -132,10 +132,9 @@
     var userEmail = document.getElementById('loginEmail').value;
     var userPassword = document.getElementById('loginPassword').value;
 
-    // For any credentials, redirect to another HTML page
-    if (userEmail === 'jessica@gmail.com' && userPassword === 'password') {
-      window.location.href = 'dashboards.html'; // Replace 'dashboard.html' with your actual dashboard page
-    } else {
+    if (userEmail && userPassword) {
+      window.location.href = "dashboards.html";
+    } else  {
       // Display an error message for incorrect credentials
       document.getElementById('loginErrorMessage').innerText = 'Invalid credentials. Please try again.';
       document.getElementById('loginErrorMessage').classList.remove('d-none');
