@@ -5,6 +5,17 @@ nav ul li a.active{
     background: blue;
 
 }
+@media (max-width: 768px) {
+    .navbar-collapse {
+      text-align: center;
+    }
+
+    .navbar-nav {
+      display: inline-block;
+      margin: 0 auto;
+      float: none;
+    }
+  }
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;

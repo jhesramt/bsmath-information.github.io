@@ -8,37 +8,63 @@
 </head>
 <body>
 
-<div class="container mt-5">
-  <h1>Welcome to the Dashboard</h1>
-  <p>Analytics and insights of the program will be displayed here.</p>
+  <div class="container mt-5">
+    <h1>Welcome to the Dashboard</h1>
+    <p>Analytics and insights of the program will be displayed here.</p>
+    
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card" id="editInfoCard">
+          <div class="card-body" id="cardBody">
+            <h5 class="card-title">Edit Information</h5>
+            <p class="card-text">Update your Information here</p>
+          </div>
+          <div class="card-body" id="formBody" style="display: none;">
+            <form id="editInfoForm">
+              <div class="mb-3">
+                <label for="employed">Are you currently employed?</label>
+                <select class="form-select" id="employed">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="yearsEmployed">How many years have you been employed?</label>
+                <input type="number" class="form-control" id="yearsEmployed">
+              </div>
+              <div class="mb-3">
+                <label for="currentCareer">What career are you pursuing currently?</label>
+                <input type="text" class="form-control" id="currentCareer">
+              </div>
+              <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+            </form>
+            <div class="alert alert-success mt-3" id="thankYouMessage" style="display: none;">
+              Thank you for your response. We're delighted to have your information and will ensure it stays updated.
+            </div>
+          </div>
+        </div>
+      </div>
   
- 
-  <div class="row mt-4">
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Edit Information</h5>
-          <p class="card-text">Update your Information here</p>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">List of Alumni</h5>
+            <p class="card-text">BS MATH Alumni</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">List of Alumni</h5>
-          <p class="card-text">BS MATH Alumni</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Alumni Updates</h5>
-          <p class="card-text">Alumni Analytics.</p>
+  
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Alumni Updates</h5>
+            <p class="card-text">Alumni Analytics.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  
   
 
   <div class="mt-5">
@@ -47,6 +73,30 @@
 </div>
 
 <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const editInfoCard = document.getElementById("editInfoCard");
+  const cardBody = document.getElementById("cardBody");
+  const formBody = document.getElementById("formBody");
+  const editInfoForm = document.getElementById("editInfoForm");
+  const thankYouMessage = document.getElementById("thankYouMessage");
+
+  editInfoCard.addEventListener("click", function () {
+    cardBody.style.display = "none"; // Hide the card body
+    formBody.style.display = "block";
+  });
+
+  editInfoForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    thankYouMessage.style.display = "block";
+
+    // Clear individual form fields
+    document.getElementById("employed").value = "";
+    document.getElementById("yearsEmployed").value = "";
+    document.getElementById("currentCareer").value = "";
+  });
+});
+
+
   function logout() {
  
     window.location.href = '../index_bootstrap.html'; 

@@ -10,43 +10,42 @@
     <link rel="stylesheet" href="../admission.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="../index_bootstrap.html">Pangasinan State University</a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
   
-      <div class="navbar-collapse collapse" id="navbarsExample11" style="font-family: Arial, Helvetica, sans-serif;">
-        <a class="navbar-brand col-lg-3 me-0" href="../index_bootstrap.html">Pangasinan State University</a>
-        <ul class="navbar-nav col-lg-6 justify-content-lg-center">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="../index_bootstrap.html"><i class="fa fa-home"></i>Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="admission.html"><i class="fa fa-user"></i>Admission</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="academics.html"><i class="fa fa-graduation-cap"></i>Academics</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link " href="contact-us.html"><i class="fa fa-address-book"></i>Contact Us</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#"></a></li>
-              <li><a class="dropdown-item" href="#"></a></li>
-              <li><a class="dropdown-item" href="#"></a></li>
-            </ul>
-          </li>
-        </ul>
+      <div class="navbar-collapse collapse" id="navbarsExample09" style="font-family: Arial, Helvetica, sans-serif;">
+        <div class="mx-auto"> 
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="../index_bootstrap.html"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="admission.html"><i class="fa fa-user"></i>Admission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="academics.html"><i class="fa fa-graduation-cap"></i>Academics</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="contact-us.html"><i class="fa fa-address-book"></i>Contact Us</a>  
+            </li>
+          </ul>
+        </div>
         <div class="d-lg-flex col-lg-3 justify-content-lg-end">
           <a href="more-info.html">
             <button class="btn btn-primary">Login</button>
           </a>
-        </div>   
+        </div> 
       </div>
     </div>
   </nav>
-   <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-light"></div>
-   <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2 p-3 mb-2 bg-info text-dark ">
+
+
+   <div class="position-relative bg-light-tertiary"></div>
+   <div class="bd-heading  align-self-start  mb-xl-2 p-3 mb-2 bg-info text-dark ">
       <h3>Admission Requirements</h3>
     </div>
     <div class="container col-xxl-8 px-4 py-5">
@@ -90,7 +89,46 @@
             </div>
       </div>
     </div> 
-     <div class="row align-items-md-stretch">
+     
+    <div class="container mt-5">
+      <div class="card">
+        <div class="card-header bg-info text-white">
+          <h5 class="card-title">New College Freshmen Students</h5>
+        </div>
+        <div class="card-body" id="freshmenCard">
+          <p>Students shall be accepted regardless of age, sex, nationality, religious beliefs, socio-economic status, or political affiliations.</p>
+          <p>Students must have graduated from recognized secondary schools.</p>
+          Students must qualify in the average grade requirement (GWA) set by PSU or by CHED.
+          Must qualify in the interview
+          <p>Students enrolled in vocational courses or those not leading to a degree program are admitted as beginning freshmen.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="card" id="transfereesCard">
+        <div class="card-header bg-info text-white">
+          <h5 class="card-title">Transferees</h5>
+        </div>
+        <div class="card-body">
+          <p>Must have complete and valid credentials.</p>
+          <p>Must meet all the prescribed admission requirements of the University and the concerned College.</p>
+          <p>Qualifying Test for Transferees.</p>
+          <p>Average grade requirement (GWA).</p>
+          <p>Copy of grades signed by the Registrar or OTR for reference purposes.</p>
+          <p>Certificate of Transfer Credential.</p>
+          <p>Interview.</p>
+          <p>Physical or Health Examination.</p>
+          <p>Certificate of Good Moral Character.</p>
+          <p>Copy of NSO birth Certificate.</p>
+          <p>Must not have any outstanding failure in any academic subjects.</p>
+          <p>Must not have any outstanding failure in any non-academic subject (including NSTP).</p>
+          <p>Only students who have enrolled in any course leading to a degree program are admitted as transferees.</p>
+          <p>Admission shall be on a probation basis during the first semester of stay in the University or until such time as they shall have validated/repeated in accordance with the University policies all the subjects taken outside the PSU which are required for their course.</p>
+          <p>Official Transcript of Record (OTR) shall be submitted prior to admission for the following semester; otherwise, enrollment will not be allowed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-md-stretch">
       <div class="col-md-6">
         <div class="h-100 p-5 text-bg-light rounded-3">
           <h3>ADMISSION PROCEDURES</h3>
@@ -114,6 +152,11 @@
 
         </div> 
       </div>
+    </div>
+    
+    
+    <div class="text-center mt-4">
+      <a href="https://admission.psu.edu.ph/registration" class="btn btn-primary btn-lg" target="_blank">Proceed to Admission</a>
     </div>
     <div class="b-example-divider"></div>
 
@@ -149,6 +192,9 @@
       </div>
   </section>
 
+
+  
+
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="../index_bootstrap.html" class="nav-link text-black"><i class="fa fa-home"></i>Home</a></li>
@@ -162,5 +208,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".card-body").hide(); // Hide all card bodies initially
+    $(".card-header").click(function(){
+      $(this).next(".card-body").slideToggle(); // Toggle visibility of the clicked card body
+    });
+  });
+</script>
+
 </body>
 </html>

@@ -16,12 +16,17 @@ nav ul li a.active{
       float: none;
     }
   }
-p{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;}
-    
-        .carousel-item img {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-        }
+  .container {
+    margin-top: 50px;
+}
+h1, h2 {
+    text-align: center;
+    color: #007bff;
+}
+.video-container {
+    margin-top: 30px;
+}
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -5,6 +5,17 @@ nav ul li a.active{
     background: blue;
 
 }
+@media (max-width: 768px) {
+    .navbar-collapse {
+      text-align: center;
+    }
+
+    .navbar-nav {
+      display: inline-block;
+      margin: 0 auto;
+      float: none;
+    }
+  }
 p{
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
