@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../about-us.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+  <nav class="navbar navbar-expand-lg bg-info rounded" aria-label="Eleventh navbar example">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index_bootstrap.html">Pangasinan State University</a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,9 +26,16 @@
             <li class="nav-item">
               <a class="nav-link" href="admission.html"><i class="fa fa-user"></i>Admission</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="academics.html"><i class="fa fa-graduation-cap"></i>Academics</a>
-            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-graduation-cap"></i>Academics
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
+                  <li><a class="dropdown-item" href="students-life.html">Student Life</a></li>
+                  <li><a class="dropdown-item" href="academics.html">Resources</a></li>
+                  <li><a class="dropdown-item" href="learn-more.html">Program Offers</a></li>
+              </ul>
+          </li>
             <li class="nav-item dropdown">
               <a class="nav-link " href="contact-us.html"><i class="fa fa-address-book"></i>Contact Us</a>  
             </li>
@@ -42,7 +49,7 @@
       </div>
     </div>
   </nav>
- <h2 class="pb-2 border-bottom p-3 mb-2 bg-info text-dark"">History of the Program</h2>
+ <h2 class="pb-2 border-bottom p-3 mb-2  text-dark"">History of the Program</h2>
  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-10 col-sm-8 col-lg-6">
       <img src="../imgs/gym.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="400" loading="lazy">
