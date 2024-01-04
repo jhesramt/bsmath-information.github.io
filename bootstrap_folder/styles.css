@@ -1,13 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@300;400;500;600&display=swap');
 
-.banner-image {
-    background-image: url('../bootstrap_folder/imgs/graduation.jpg');
-    background-size: cover;}
 nav ul li a:hover,
 nav ul li a.active{
     color: blue;
     background: blue;
 
+}
+*{
+  font-family: 'Patua One', serif;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.carousel-item img {
+  max-width: 200%; 
+  max-height: 800px; 
+  width: auto;
+  height: auto;
+  margin: auto;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
@@ -24,4 +34,53 @@ p{
       margin: 0 auto;
       float: none;
     }
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    z-index: 1000; /* Adjust this value based on your layout */
+}
+
+  .feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+    /* p {
+    font-size: 20px; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+  */
+  .toggle-btn {
+    padding: 4px 10px; /* Adjust padding */
+    min-width: 80px; /* Adjust minimum width */
+    height: 30px; /* Adjust height */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Example: Make paragraphs more readable */
+  p {
+    font-size: 1.5rem;
+    line-height: 1;
+    text-justify: unset;
   }

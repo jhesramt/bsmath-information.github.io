@@ -6,43 +6,51 @@
     <title>Learn More</title>
     <link rel="shortcut icon" href="../imgs/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../learn-more.css">
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+  <nav class="navbar navbar-expand-lg bg-info" aria-label="Eleventh navbar example">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../index_bootstrap.html">Pangasinan State University</a>
-      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="navbar-collapse collapse" id="navbarsExample09" style="font-family: Arial, Helvetica, sans-serif;">
-        <div class="mx-auto"> 
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="../index_bootstrap.html"><i class="fa fa-home"></i>Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="admission.html"><i class="fa fa-user"></i>Admission</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="academics.html"><i class="fa fa-graduation-cap"></i>Academics</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link " href="contact-us.html"><i class="fa fa-address-book"></i>Contact Us</a>  
-            </li>
-          </ul>
+        <a class="navbar-brand" href="../index_bootstrap.html">Bachelor of Science in Mathematics</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample09">
+            <div class="mx-auto">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index_bootstrap.html"><i class="fa fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admission.html"><i class="fa fa-user"></i>Admission</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-graduation-cap"></i>Academics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
+                            <li><a class="dropdown-item" href="students-life.html">Student Life</a></li>
+                            <li><a class="dropdown-item" href="academics.html">Resources</a></li>
+                            <li><a class="dropdown-item" href="learn-more.html">Program Offers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact-us.html"><i class="fa fa-address-book"></i>Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                <a href="login.html">
+                    <button class="btn btn-primary">Login</button>
+                </a>
+            </div>
         </div>
-        <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-          <a href="more-info.html">
-            <button class="btn btn-primary">Login</button>
-          </a>
-        </div> 
-      </div>
     </div>
-  </nav>
+</nav>
 
       <div >
         <div> <h2 class="">What is Bachelor of Science in Mathematics?</h2></div>
@@ -61,7 +69,7 @@
     </div>
     <div class="row">
       <div class="col-md-4 mb-4">
-          <div class="card text-center border-primary shadow-lg" id="mathDegreeCard" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
+          <div class="card text-center border-primary " id="mathCurriculumCard" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
               <div class="card-body d-flex flex-column justify-content-center">
                   <h5 class="card-title text-primary mb-4" style="font-size: 2rem; font-weight: bold;">Curriculum</h5>
                   <p class="card-text lead text-justify mb-0" id="briefInfo"></p>
@@ -72,7 +80,7 @@
           </div>
       </div>
       <div class="col-md-4 mb-4">
-          <div class="card text-center border-primary shadow-lg" id="divisioncourses" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
+          <div class="card text-center border-primary " id="divisioncourses" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
               <div class="card-body d-flex flex-column justify-content-center">
                   <h5 class="card-title text-primary mb-4" style="font-size: 2rem; font-weight: bold;">Lower-Division Courses</h5>
                   <p class="card-text lead text-justify mb-0" id="briefInfoaboutcourses"></p>
@@ -83,7 +91,7 @@
           </div>
       </div>
       <div class="col-md-4 mb-4">
-          <div class="card text-center border-primary shadow-lg" id="Courses" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
+          <div class="card text-center border-primary " id="Courses" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
               <div class="card-body d-flex flex-column justify-content-center">
                   <h5 class="card-title text-primary mb-4" style="font-size: 2rem; font-weight: bold;">Foundational Courses</h5>
                   <p class="card-text lead text-justify mb-0" id="briefInfo3"></p>
@@ -96,7 +104,7 @@
   </div>
   <div class="row">
     <div class="col-md-4 mb-4">
-        <div class="card text-center border-primary shadow-lg" id="puremath" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
+        <div class="card text-center border-primary" id="puremath" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
             <div class="card-body d-flex flex-column justify-content-center">
                 <h5 class="card-title text-primary mb-4" style="font-size: 2rem; font-weight: bold;">Electives for Pure Mathematics</h5>
                 <div class="text-left">
@@ -112,7 +120,7 @@
         </div>
     </div>
     <div class="col-md-4 mb-4">
-        <div class="card text-center border-primary shadow-lg" id="stat" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
+        <div class="card text-center border-primary " id="stat" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
             <div class="card-body d-flex flex-column justify-content-center">
                 <h5 class="card-title text-primary mb-4" style="font-size: 2rem; font-weight: bold;">Electives for Statistics</h5>
                 <div class="text-left">
@@ -127,7 +135,7 @@
         </div>
     </div>
     <div class="col-md-4 mb-4">
-        <div class="card text-center border-primary shadow-lg" id="cit" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
+        <div class="card text-center border-primary" id="cit" style="width: 25rem; height: 25rem; background-color: #f8f9fa;">
             <div class="card-body d-flex flex-column justify-content-center">
                 <h5 class="card-title text-primary mb-4" style="font-size: 2rem; font-weight: bold;">Electives for CIT</h5>
                 <div class="text-left">
@@ -143,7 +151,7 @@
     </div>
 </div>
 <article class="my-3" id="accordion">
-  <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2 p-3 mb-2 bg-info text-dark ">
+  <div class="bd-heading  align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2 p-3 mb-2  text-dark ">
     <h3>Career and Job Opportunities</h3>
   </div>
   <div>
@@ -278,7 +286,7 @@
 
 <script>
     $(document).ready(function() {
-      $("#mathDegreeCard").click(function() {
+      $("#mathCurriculumCard").click(function() {
         $("#detailedInfo").slideToggle();
       });
 

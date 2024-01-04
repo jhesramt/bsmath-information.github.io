@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@300;400;500;600&display=swap');
+
+nav ul li a:hover,
+nav ul li a.active{
+    color: blue;
+    background: blue;
+
+}
+*{
+  font-family: 'Patua One', serif;
+  font-family: 'Poppins', sans-serif;
+}
 nav ul li a:hover,
 nav ul li a.active{
     color: blue;
@@ -16,17 +27,8 @@ nav ul li a.active{
       float: none;
     }
   }
-  .container {
-    margin-top: 50px;
-}
-h1, h2 {
-    text-align: center;
-    color: #007bff;
-}
-.video-container {
-    margin-top: 30px;
-}
-.card {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+  .bg-info {
+    background-color: #02ccfe !important;
+  }
+  
+  

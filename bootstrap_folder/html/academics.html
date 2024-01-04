@@ -10,43 +10,52 @@
     <link rel="stylesheet" href="../academics.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index_bootstrap.html">Pangasinan State University</a>
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
   
-      <div class="navbar-collapse collapse" id="navbarsExample09" style="font-family: Arial, Helvetica, sans-serif;">
-        <div class="mx-auto"> 
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="../index_bootstrap.html"><i class="fa fa-home"></i>Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="admission.html"><i class="fa fa-user"></i>Admission</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="academics.html"><i class="fa fa-graduation-cap"></i>Academics</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link " href="contact-us.html"><i class="fa fa-address-book"></i>Contact Us</a>  
-            </li>
-          </ul>
+  <nav class="navbar navbar-expand-lg bg-info rounded  " aria-label="Eleventh navbar example">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index_bootstrap.html">Bachelor of Science in Mathematics</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample09">
+            <div class="mx-auto">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index_bootstrap.html"><i class="fa fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admission.html"><i class="fa fa-user"></i>Admission</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-graduation-cap"></i>Academics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
+                            <li><a class="dropdown-item" href="students-life.html">Student Life</a></li>
+                            <li><a class="dropdown-item" href="academics.html">Resources</a></li>
+                            <li><a class="dropdown-item" href="learn-more.html">Program Offers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact-us.html"><i class="fa fa-address-book"></i>Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                <a href="login.html">
+                    <button class="btn btn-primary">Login</button>
+                </a>
+            </div>
         </div>
-        <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-          <a href="more-info.html">
-            <button class="btn btn-primary">Login</button>
-          </a>
-        </div> 
-      </div>
     </div>
-  </nav>
+</nav>
+ <div>
    <main>
-      <hr>
-      <center>
-        <h1>Resources for BS Math</h1>
-      </center>
+    <div class="position-relative bg-light-tertiary"></div>
+   <div class="bd-heading  align-self-start  mb-xl-2 p-3 mb-2  text-dark ">
+      <h3>RESOURCES</h3>
+    </div>
       <br>
       <font size="+2">
         This page contains resources for undergraduate BS Math. Here is a list of the topics covered.
@@ -79,71 +88,99 @@
             <li><a href="https://missioncollege.edu/depts/math/math-help/how-to-study-math/how-to-study-math.html" target="_blank">Study Tips for Advanced Math Courses</a></li>
          
         </blockquote>
-      </font>
-   </main>
-   <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-light"></div>
-   <div class="bd-heading align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2 p-3 mb-2 bg-info text-dark">
-      <h3>Students Publication</h3>
-   </div>
-   <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="../imgs/technoscope.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h2 style="color: blue;">Technoscope Publication</h2><br>
-        <p>Technoscope is the official student publication of Pangasinan State University- Urdaneta City Campus. As an institutionally mandated student organization, Technoscope serves as a vibrant platform for students passionate about technology, innovation, and the digital world. It features insightful articles, analyses, and updates on the latest advancements in technology, providing a window into the ever-evolving landscape of science and digital trends</p>
-        <h4>Visit their Fb Page</h4>
-        <p><a href="https://www.facebook.com/technoscopeurda" target="_blank">https://www.facebook.com/psuurdgymdofficial</a></p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        </div>
-      </div>
-    </div>
-   </div>
+      
+        <section>
+          <div class="row m-0">
+            <div class="col-md-12">
+              <form class="bg-light" onsubmit="return myFunction2()">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" required placeholder="Enter your Email" id="email">
+                      
+                    </span>
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" required placeholder="Enter your Name" id="name">
+                    </div>
+                    <div class="mb-3">
+                      <textarea rows="3" required class="form-control" placeholder="Enter your Message" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn text-center bg-primary">Submit</button>
+                    <div id="messageDisplay"></div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        
+        <div class="b-example-divider"></div>
+        
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="../index_bootstrap.html" class="nav-link text-black"><i class="fa fa-home"></i>Home</a></li>
+            <li class="nav-item"><a href="admission.html" class="nav-link text-black"><i class="fa fa-user"></i>Admission</a></li>
+            <li class="nav-item"><a href="academics.html" class="nav-link text-black"><i class="fa fa-graduation-cap"></i>Academics</a></li>
+            <li class="nav-item"><a href="contact-us.html" class="nav-link text-black"><i class="fa fa-address-book"></i>Contact Us</a></li>
+        </ul>
+          <p class="text-center text-body-secondary">© 2023 For Educational Purpose Only</p>
+        </footer>
+        
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        
+        <script>
+         function myFunction2() {
+          var name = document.getElementById("name");
+          var email = document.getElementById("email");
+          var message = document.getElementById("message");
+          const emailRegex = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/;
+        
+          var nameValue = name.value.trim();
+          var emailValue = email.value.trim();
+          var messageValue = message.value.trim();
+        
+          var messageDisplay = document.getElementById("messageDisplay");
+          messageDisplay.innerHTML = "";
+        
+          if (nameValue === "" || emailValue === "" || messageValue === "") {
+            messageDisplay.innerHTML = "<p>Please fill all the required fields.</p>";
+            return false;
+          } else if (!emailRegex.test(emailValue)) {
+            messageDisplay.innerHTML = "<p>Please enter a valid email address.</p>";
+            return false;
+          } else {
+            messageDisplay.innerHTML = "<p>We've received your message and will get back to you shortly.</p>";
+        
+          
+            var submitButton = document.querySelector('button[type="submit"]');
+            submitButton.disabled = true;
+        
+           
+            var okButton = document.createElement("button");
+            okButton.innerHTML = "OK";
+            okButton.classList.add("ok-button");
+            okButton.onclick = function () {
+             
+              name.value = "";
+              email.value = "";
+              message.value = "";
+              messageDisplay.innerHTML = ""; 
+              submitButton.disabled = false; 
+            };
+        
+          
+            messageDisplay.appendChild(okButton);
+        
+            return false;
+          }
+        }
+        
+        
+        
+        
+        </script>
 
-   <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="../imgs/gym.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h2 style="color: blue;">Guild of Young Mathematicians and Statistician</h2><br>
-          <p>GYMS is the official program publication of Pangasinan State University- Urdaneta City Campus.GYMS official facebook page serve as a povital information about the program.</p>
-          <h4>Visit their Fb Page</h4>
-          <p><a href="https://www.facebook.com/psuurdgymsofficial" target="_blank">https://www.facebook.com/psuurdgymdofficial</a></p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          </div>   
-        </div>
-      </div>
-   </div>
-   
-   <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="../imgs/stat.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h2 style="color: blue;">PSU Center for Statistics and Computing Sciences</h2><br>
-        <p>The official facebook page of center of Statistics and Computing Sciences. </p>
-        <h4>Visit their Fb Page</h4>
-        <p><a href="https://www.facebook.com/Statistics.Research.Center" target="_blank">https://www.facebook.com/psuurdgymdofficial</a></p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        </div>
-      </div>
-    </div>
-   </div>
-
-   <!-- FOOTER -->
-   <div class="b-example-divider"></div>
-   <footer class="py-3 my-4">
-     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-       <li class="nav-item"><a href="../index_bootstrap.html" class="nav-link text-black"><i class="fa fa-home"></i>Home</a></li>
-       <li class="nav-item"><a href="admission.html" class="nav-link text-black"><i class="fa fa-user"></i>Admission</a></li>
-       <li class="nav-item"><a href="academics.html" class="nav-link text-black"><i class="fa fa-graduation-cap"></i>Academics</a></li>
-       <li class="nav-item"><a href="contact-us.html" class="nav-link text-black"><i class="fa fa-address-book"></i>Contact Us</a></li>
-     </ul>
-     <p class="text-center text-body-secondary">© 2023 For Educational Purpose Only</p>
-   </footer>
-   <script src="../js/bootstrap.bundle.min.js"></script>
+ 
 </body>
 </html>
